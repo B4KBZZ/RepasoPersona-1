@@ -2,7 +2,7 @@
 
 namespace RepasoPersona.Core
 {
-    public class Persona
+    public class Persona: ente_saldo
     {
         public string Nombre { get; private set; }
         public string Apellido { get; private set; }
